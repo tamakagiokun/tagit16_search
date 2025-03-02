@@ -1,4 +1,4 @@
-const apiKey = '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';
+const apiKey = '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';
 
 // メッセージ送信ボタンが押されたときに呼び出される関数
 function sendMessage() {
