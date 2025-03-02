@@ -9,7 +9,7 @@ function sendMessage() {
     // APIに送信するメッセージを構築
     const message = `合計${userImput}円以内で${userInput}のグッズを教えて。グッズの名前と値段、URLを実際にアクセスできるものだけ教えて。会話文などほかの情報はいらないよ。`;
 
-    // ペイロードを作成
+    // ペイロード作成
     const data = {
         model: "gpt-3.5-turbo",
         messages: [
